@@ -14,11 +14,10 @@ public class lvl6_4 {
             resultArray[i] = firstArray[i];
             System.out.print(resultArray[i] + ", ");
         }
-
         int b = secondArray.length;
         for (int i = 0; i < b; i++) {
-            resultArray[i] = secondArray[i];
-            System.out.print(resultArray[i] + ", ");
+            resultArray[firstArray.length + i] = secondArray[i];
+            System.out.print(resultArray[firstArray.length + i] + ", ");
         }
     }
 }
