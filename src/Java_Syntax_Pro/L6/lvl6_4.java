@@ -8,7 +8,7 @@ public class lvl6_4 {
     public static void main(String[] args) {
         //напишите тут ваш код
         int dlina = firstArray.length + secondArray.length;
-        int[] resultArray = new int[dlina];
+        resultArray = new int[dlina];
         int a = firstArray.length;
         for (int i = 0; i < a; i++) {
             resultArray[i] = firstArray[i];
