@@ -69,3 +69,9 @@ G.idea/sonarlint/issuestore/7/9/79b53221d38c633f43bed764c80422e88fe2cb7c,2\e\2e
 Q.idea/sonarlint/securityhotspotstore/7/9/79b53221d38c633f43bed764c80422e88fe2cb7c,f\1\f1821a1c32cb6a2a6c5bcd6eec298e8f672ef6f2
 w
 G.idea/sonarlint/issuestore/8/b/8bef430762f450bab4479ce32632e6557fae49f8,0\b\0bf6926cf240a11948ea7c994ff73f85a275cb67
+R
+"src/Java_Syntax_Pro/L6/lvl6_5.java,c\e\cea2b249d94d0732c71be4a54a996ff63b4c4218
+R
+"src/Java_Syntax_Pro/L6/lvl6_6.java,3\3\33a9872ac01eef2c8210e09298ae5cebc914a70e
+R
+"src/Java_Syntax_Pro/L6/lvl6_7.java,f\b\fb21d442e5ae866e933ad73c2c2549b73f8614b3
