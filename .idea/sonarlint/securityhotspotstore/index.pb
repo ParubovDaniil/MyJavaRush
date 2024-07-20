@@ -75,3 +75,7 @@ R
 "src/Java_Syntax_Pro/L6/lvl6_6.java,3\3\33a9872ac01eef2c8210e09298ae5cebc914a70e
 R
 "src/Java_Syntax_Pro/L6/lvl6_7.java,f\b\fb21d442e5ae866e933ad73c2c2549b73f8614b3
+R
+"src/Java_Syntax_Pro/L6/lvl6_8.java,9\e\9e8b46904f1ebd44ad9dc03c558a7d3f425b396b
+V
+&src/Java_Syntax_Pro/L6/lvl6_8_try.java,6\b\6bcbaef3e636d3fe2669c203fd4f189737e8b662
