@@ -1,6 +1,7 @@
 package Java_Syntax_Pro.L6;
 
 import java.util.Scanner;
+
 /*
 Удаляем одинаковые строки
 */
@@ -15,14 +16,14 @@ public class lvl6_8 {
             strings[i] = scanner.nextLine();
         }
         for (int i = 0; i < strings.length; i++) {
-            for (int j = strings.length - 1; j >= 0; j--) {
+            for (int j = 0; j < 5; j++) {
                 if (strings[i] == null) {
                     break;
                 }
-                if (j==i)
-                {break;}
-                if (strings[i].equals(strings[j])) {
-                    strings[j] = null;
+                if (i == j) {
+                    break;
+                }
+                if (strings[j].equals(strings[i])) {
                     strings[i] = null;
                     break;
                 }
@@ -33,8 +34,6 @@ public class lvl6_8 {
         }
     }
 }
-
-
 /*
 * В этой задаче тебе нужно:
 

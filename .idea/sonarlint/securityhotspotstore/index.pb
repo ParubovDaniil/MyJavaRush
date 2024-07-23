@@ -77,5 +77,9 @@ R
 "src/Java_Syntax_Pro/L6/lvl6_7.java,f\b\fb21d442e5ae866e933ad73c2c2549b73f8614b3
 R
 "src/Java_Syntax_Pro/L6/lvl6_8.java,9\e\9e8b46904f1ebd44ad9dc03c558a7d3f425b396b
-V
-&src/Java_Syntax_Pro/L6/lvl6_8_try.java,6\b\6bcbaef3e636d3fe2669c203fd4f189737e8b662
+U
+%src/Java_Syntax_Pro/L6/lvl6_8try.java,3\1\319c98761044f545abdc37c84bd0f22d7d2280aa
+R
+"src/Java_Syntax_Pro/L6/lvl6_9.java,1\f\1fcf930652e07c3ee709cd96792a47f509d9012a
+S
+#src/Java_Syntax_Pro/L6/lvl6_10.java,f\6\f60deaa62bad8d7dc5a91f76ec0d09c3a1efd903
