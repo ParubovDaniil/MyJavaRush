@@ -83,3 +83,7 @@ R
 "src/Java_Syntax_Pro/L6/lvl6_9.java,1\f\1fcf930652e07c3ee709cd96792a47f509d9012a
 S
 #src/Java_Syntax_Pro/L6/lvl6_10.java,f\6\f60deaa62bad8d7dc5a91f76ec0d09c3a1efd903
+S
+#src/Java_Syntax_Pro/L6/lvl6_11.java,8\9\891310a60c168fa70922dc79bf1fd768deb36484
+V
+&src/Java_Syntax_Pro/L6/lvl6_bonus.java,b\2\b2c88b333f59e083c40903859748dac1b37f59aa
