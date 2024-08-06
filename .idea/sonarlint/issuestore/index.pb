@@ -87,3 +87,13 @@ S
 #src/Java_Syntax_Pro/L6/lvl6_11.java,8\9\891310a60c168fa70922dc79bf1fd768deb36484
 V
 &src/Java_Syntax_Pro/L6/lvl6_bonus.java,b\2\b2c88b333f59e083c40903859748dac1b37f59aa
+M
+src/Java_Syntax_Pro/L6/t.java,d\a\da33eacac5b417dd8102f88088e188954d720b2b
+S
+#src/Java_Syntax_Pro/L6/lvl6_12.java,4\c\4c53963fb7b60ed4960c26cca5fd71cc5c4c4586
+S
+#src/Java_Syntax_Pro/L6/lvl6_13.java,3\c\3c91c739b1d33e767fdeb6c5ecb58dc695718bff
+S
+#src/Java_Syntax_Pro/L6/lvl6_14.java,6\d\6d0283c6772636210a2eacfcb00cb9fc8f4069e6
+S
+#src/Java_Syntax_Pro/L6/lvl6_15.java,2\4\24e0a43e4866d64a89214a6d9bad12cf5b01ac4d
