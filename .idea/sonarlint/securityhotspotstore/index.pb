@@ -97,3 +97,7 @@ S
 #src/Java_Syntax_Pro/L6/lvl6_15.java,2\4\24e0a43e4866d64a89214a6d9bad12cf5b01ac4d
 S
 #src/Java_Syntax_Pro/L6/lvl6_16.java,f\1\f1193c51b1d80a4ba493a8a4a864a14aa4cda857
+S
+#src/Java_Syntax_Pro/L6/lvl6_17.java,6\1\61b23d6c4a3054ac4ab1135e9547bcb3541dc0aa
+S
+#src/Java_Syntax_Pro/L6/lvl6_18.java,7\f\7ff905c1eecc8b3acfca2f08fc7737c01b3e8142
