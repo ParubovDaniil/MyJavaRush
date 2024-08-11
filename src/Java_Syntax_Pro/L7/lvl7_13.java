@@ -2,7 +2,6 @@ package Java_Syntax_Pro.L7;
 /*
 Города-гиганты
 */
-
 public class lvl7_13 {
     public static String city = "Токио";
     public static double population = 34.5;
@@ -16,7 +15,7 @@ public class lvl7_13 {
 
     public static void printCityPopulation(String city, double population){
         System.out.println("Население города " + city + " составляет " + population + " млн человек.");
-        System.out.println("В то время как в самом густонаселенном городе " + city + " население составляет " + population + " млн человек.");
+        System.out.println("В то время как в самом густонаселенном городе " + lvl7_13.city + " население составляет " + lvl7_13.population + " млн человек.");
     }
 }
 /*

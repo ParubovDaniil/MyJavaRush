@@ -6,7 +6,7 @@ public class lvl7_15 {
     static final String NAME = "Земля";
     static final double SQUARE = 510_100_000;
     static final long POPULATION = 7_594_000_000L;
-    static final long EQUATORLENGTH = 40_075_696;
+    static final long EQUATOR_LENGTH = 40_075_696;
 }
 /*
 * Перед тобой класс Earth - сборник переменных, описывающих определенные характеристики планеты Земля.

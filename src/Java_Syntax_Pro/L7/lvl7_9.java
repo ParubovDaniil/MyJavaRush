@@ -1,22 +1,20 @@
 package Java_Syntax_Pro.L7;
-
 /*
 Кубический калькулятор в кубе
 */
 public class lvl7_9 {
-
     public static void main(String[] args) {
-
+    long b = 2;
+    System.out.println(ninthDegree(b));
     }
-
-    public static long cube(long l) {
-        return l * l * l;
+    public static long cube(long a) {
+        return a * a * a;
     }
-
     public static long ninthDegree(long l) {
-    cube(l);
-    cube(l);
-    return l;
+    long tmp = l;
+    tmp = cube(tmp);//по моей логике мы 1 раз передаём значение в метод cube и он нам возвращает полученное значение
+    tmp = cube(tmp);//полученное значение мы снова передаём в метод cube и уже получаем 9 степень, разве нет?
+    return tmp;
     }
 }
 /*
