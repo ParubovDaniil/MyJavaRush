@@ -8,12 +8,14 @@ import java.util.regex.Pattern;
 */
 public class lvl10_7 {
     private static final String HEX = "0123456789abcdef";
+
     public static void main(String[] args) {
         int decimalNumber = 1256;
         System.out.println("Десятичное число " + decimalNumber + " равно шестнадцатеричному числу " + toHex(decimalNumber));
         String hexNumber = "4e8";
         System.out.println("Шестнадцатеричное число " + hexNumber + " равно десятичному числу " + toDecimal(hexNumber));
     }
+
     public static String toHex(int decimalNumber) {
         if (decimalNumber > 0) {
             String hexaDecimal = "";//4e8
@@ -25,15 +27,18 @@ public class lvl10_7 {
         }
         return "";
     }
-        public static int toDecimal(String hexNumber) {
-            if (hexNumber == null){
-                return 0;
-            }else{
-        int decimalNumber = 0;//4 78 1256
-        for (int i = 0; i < hexNumber.length();i++){
-            decimalNumber = 16 * decimalNumber + HEX.indexOf(hexNumber.charAt(i));
-        } return decimalNumber;
-    }}
+
+    public static int toDecimal(String hexNumber) {
+        if (hexNumber == null) {
+            return 0;
+        } else {
+            int decimalNumber = 0;//4 78 1256
+            for (int i = 0; i < hexNumber.length(); i++) {
+                decimalNumber = 16 * decimalNumber + HEX.indexOf(hexNumber.charAt(i));
+            }
+            return decimalNumber;
+        }
+    }
 }
 /*
 * Публичный статический метод toHex(int) должен переводить целое число, полученное в качестве входящего параметра,
