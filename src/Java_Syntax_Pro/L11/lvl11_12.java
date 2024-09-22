@@ -6,6 +6,7 @@ import java.util.Objects;
 */
 public class lvl11_12 {
 }
+
 class Memory {
     public static void main(String[] args) {
         String[] memory = {"object15", null, null, "object2", null, null, null, "object32", null, "object4"};
