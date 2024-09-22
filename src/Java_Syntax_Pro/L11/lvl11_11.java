@@ -4,11 +4,11 @@ import java.util.Objects;
 Создаем свой hashCode
 */
 public class lvl11_11 {}
-class Car {
+class Cars {
     private String model;
     private int year;
 
-    public Car(String model, int year) {
+    public Cars(String model, int year) {
         this.model = model;
         this.year = year;
     }
@@ -17,7 +17,7 @@ class Car {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Car car = (Car) o;
+        Cars car = (Cars) o;
         return year == car.year && Objects.equals(model, car.model);
     }
 
@@ -27,12 +27,12 @@ class Car {
     }
 
     public static void main(String[] args) {
-        Car lamborghini = new Car("Lamborghini", 2020);
-        Car lamborghini1 = new Car("Lamborghini", 2020);
-        Car ferrari = new Car("Ferrari", 2020);
-        Car ferrari1 = new Car("Ferrari", 2020);
-        Car bugatti = new Car("Bugatti", 2020);
-        Car bugatti1 = new Car("Bugatti", 2020);
+        Cars lamborghini = new Cars("Lamborghini", 2020);
+        Cars lamborghini1 = new Cars("Lamborghini", 2020);
+        Cars ferrari = new Cars("Ferrari", 2020);
+        Cars ferrari1 = new Cars("Ferrari", 2020);
+        Cars bugatti = new Cars("Bugatti", 2020);
+        Cars bugatti1 = new Cars("Bugatti", 2020);
         System.out.println(ferrari.hashCode() == ferrari.hashCode());
         System.out.println(lamborghini.hashCode() == lamborghini1.hashCode());
         System.out.println(ferrari.hashCode() == ferrari1.hashCode());
