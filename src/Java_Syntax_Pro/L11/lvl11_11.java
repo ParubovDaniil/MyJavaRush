@@ -1,4 +1,4 @@
-package Java_Syntax_Pro;
+package Java_Syntax_Pro.L11;
 import java.util.Objects;
 /*
 Создаем свой hashCode
