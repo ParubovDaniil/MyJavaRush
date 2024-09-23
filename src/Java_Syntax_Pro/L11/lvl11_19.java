@@ -1,27 +1,33 @@
 package Java_Syntax_Pro.L11;
+import java.util.Calendar;
+
+/*
+Текущий год
+*/
 public class lvl11_19 {}
-class Keyboard {
-}
-class SystemUnit {
-}
-class Mouse {
-}
-class Monitor {
-}
-class Computer {
-    public Computer(){
-        Keyboard keyboard = new Keyboard();
-        SystemUnit systemUnit = new SystemUnit();
-        Mouse mouse = new Mouse();
-        Monitor monitor = new Monitor();
+class Solutionss {
+
+    private int currentYear;
+
+    public  Solutionss() {
+        this.currentYear = Calendar.getInstance().get(Calendar.YEAR);
     }
 
+    public int getCurrentYear() {
+        return currentYear;
+    }
+
+    public static void main(String[] args) {
+        Solutionss solutionss = new Solutionss();
+        System.out.println(solutionss.getCurrentYear());
+    }
 }
 /*
-Попробуем собрать компьютер. У нас есть классы: системный блок, монитор, клавиатура, мышь.
-В классе компьютер в конструкторе создай объекты классов-составляющих компьютера.
+* В классе Solution есть поле currentYear, которое должно инициализироваться
+значением текущего года(Calendar.getInstance().get(Calendar.YEAR)) при создании нового объекта типа Solution.
+Тебе нужно найти ошибку и исправить её, чтобы при создании объекта класса Solution поле currentYear правильно инициализировалось.
 
 Требования:
-•	В отдельных файлах должны быть публичные классы Computer, Keyboard, Monitor, Mouse, SystemUnit.
-•	В конструкторе класса Computer нужно создать 4 объекта разных "комплектующих".
-*/
+•	В классе Solution должно быть приватное не статическое поля currentYear типа int.
+•	В классе Solution должен быть геттер getCurrentYear для поля currentYear.
+•	При создании объекта класса Solution, currentYear должно инициализироваться значением текущего года (используй метод Calendar.getInstance().get(Calendar.YEAR)).*/
