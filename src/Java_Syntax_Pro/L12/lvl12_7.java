@@ -6,7 +6,7 @@ public class lvl12_7 {
 Двигатель — сердце автомобиля
 */
 
- class Car {
+ class Car7 {
      Engine engine = new Engine();
 class Engine{
    private boolean isRunning;
