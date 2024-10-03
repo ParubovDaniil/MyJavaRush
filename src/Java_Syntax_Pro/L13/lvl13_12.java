@@ -44,7 +44,6 @@ class CustomStringArrayList {
     System.arraycopy(elements,0,noviy,0,size);
     elements = noviy;
     }
-
 }
 /*
 * ArrayList — это список, который хранит динамически расширяемый массив элементов.
