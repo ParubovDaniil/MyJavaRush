@@ -1,0 +1,201 @@
+Класс HashSet является типичным представителем коллекций типа «множество».
+Во многом он похож на класс ArrayList, и в каком-то смысле является его более примитивной версией.
+Создать объект типа HashSet можно с помощью команды вида:
+HashSet<Тип> имя = new HashSet<Тип>();
+
+Коллекция Set создана для хранения множества элементов. Поэтому ее так и называют Set (множество). У этой коллекции есть три особенности.
+Операции над множеством:
+С множеством можно делать только три операции:
+1.) добавлять элементы во множество
+2.) удалять элементы из множества
+3.) проверять, есть ли во множестве определенный элемент.
+Отсутствие порядка:
+У элементов этой коллекции нет номеров.
+Нельзя получить элемент по его индексу или записать значение в коллекцию по определенному индексу.
+Методов get() и set() у множества нет.
+Уникальность элементов:
+Все элементы множества уникальны.
+В отличие от списка, во множестве один элемент может быть только раз.
+Объект или находится во множестве, или нет: третьего не дано.
+Нельзя во «множество цветов» трижды добавить «черный цвет». Он там либо есть, либо его нет.
+Поиск элементов:
+Когда вы добавляете во множество новый элемент, удаляете элемент, или проверяете наличие элемента, внутри метода выполняется поиск элемента.
+Элементы коллекции и переданный элемент сравниваются сначала по hashCode(), а если hashCode() совпадают, по equals.
+
+1. Структура и порядок:
+List: Порядковая коллекция. Элементы располагаются в определенном порядке, с уникальными индексами. Можно получить доступ к элементу по индексу.
+Set: Непорядковая коллекция. Элементы не имеют фиксированного порядка. Дублирующиеся элементы не допускаются.
+2. Основные операции:
+List:
+Добавление элементов в конец или в произвольное место.
+Доступ к элементам по индексу.
+Изменение и удаление элементов по индексу.
+Позволяет дублирование элементов.
+
+Set:
+Только уникальные элементы, дубликаты удаляются.
+Нет доступа к элементам по индексу (т.к. порядок не имеет значения).
+Быстрое выполнение операций проверки на наличие элемента.
+3. Когда использовать:
+
+List:
+Когда важен порядок элементов.
+Когда требуется доступ по индексу.
+Когда возможно наличие дублирующихся элементов.
+
+Set:
+Когда важно хранить уникальные элементы.
+Когда необходимо быстро проверять наличие элемента.
+Когда порядок элементов не имеет значения.
+Пример использования игрушек:
+Используйте List для хранения всех игрушек ребенка с учетом их порядка (например, если мелкие игрушки стоят на полке).
+Используйте Set для хранения уникальных игрушек, чтобы удостовериться, что вы не покупаете дубликаты на день рождения.
+
+
+Итератор — это специальный объект у коллекции, который помогает обойти все элементы коллекции и не повторяться.
+Получить итератор у любой коллекции можно с помощью кода:
+
+Iterator<Тип> it = имя.iterator();
+
+addAll(colls, e1, e2, e3, ..)
+Добавляет в коллекцию colls элементы e1, e2, e3,...
+List<String> coll = new ArrayList<>();
+Collections.addAll(coll, "Игрушка1", "Игрушка2", "Игрушка3");
+// coll: ["Игрушка1", "Игрушка2", "Игрушка3"]
+
+fill(list, obj)
+Заменяет в переданном списке все элементы на obj
+List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c"));
+Collections.fill(list, "z");
+// list: ["z", "z", "z"]
+
+nCopies(n, obj)
+Возвращает список, состоящий из n копий объекта obj
+List<String> copies = Collections.nCopies(3, "Игрушка");
+// copies: ["Игрушка", "Игрушка", "Игрушка"]
+
+replaceAll(list, oldVal, newVal)
+Заменяет в списке list все значения oldVal на newVal
+List<String> list = new ArrayList<>(Arrays.asList("a", "b", "a"));
+Collections.replaceAll(list, "a", "c");
+// list: ["c", "b", "c"]
+
+copy(dest, src)
+Копирует все элементы из списка src в список dest
+List<String> src = new ArrayList<>(Arrays.asList("a", "b", "c"));
+List<String> dest = new ArrayList<>(Arrays.asList("x", "y", "z"));
+Collections.copy(dest, src);
+// dest: ["a", "b", "c"] (после копирования, нужно, чтобы dest был размером не меньше src)
+
+reverse(list)
+Разворачивает список задом наперед
+List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c"));
+Collections.reverse(list);
+// list: ["c", "b", "a"]
+
+sort(list)
+Сортирует список в порядке возрастания
+List<Integer> list = new ArrayList<>(Arrays.asList(3, 1, 2));
+Collections.sort(list);
+// list: [1, 2, 3]
+
+rotate(list, n)
+Циклично сдвигает элементы списка list на n элементов
+List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "d"));
+Collections.rotate(list, 2);
+// list: ["c", "d", "a", "b"]
+
+shuffle(list)
+Случайно перемешивает элементы списка
+List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "d"));
+Collections.shuffle(list);
+// list: порядок элементов перемешан (например, ["b", "d", "a", "c"])
+
+min(colls)
+Находит минимальный элемент коллекции colls
+List<Integer> coll = new ArrayList<>(Arrays.asList(3, 1, 2));
+Integer min = Collections.min(coll);
+// min: 1
+
+max(colls)
+Находит максимальный элемент коллекции colls
+List<Integer> coll = new ArrayList<>(Arrays.asList(3, 1, 2));
+Integer max = Collections.max(coll);
+// max: 3
+
+frequency(colls, obj)
+Определяет, сколько раз элемент obj встречается в коллекции colls
+List<String> coll = new ArrayList<>(Arrays.asList("a", "b", "a"));
+int count = Collections.frequency(coll, "a");
+// count: 2
+
+binarySearch(list, key)
+Ищет элемент key в отсортированном списке, возвращает индекс.
+List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4));
+Collections.sort(list); // Сначала сортируем
+int index = Collections.binarySearch(list, 3);
+// index: 2
+
+disjoint(colls1, colls2)
+Возвращает true, если у коллекций нет общих элементов
+List<String> coll1 = Arrays.asList("a", "b", "c");
+List<String> coll2 = Arrays.asList("d", "e", "f");
+boolean disjoint = Collections.disjoint(coll1, coll2);
+// disjoint: true
+
+
+
+У класса HashMap есть такие методы:
+
+void put(ТКлюч key, ТЗначение value)
+Добавляет в коллекцию пару (key, value)
+HashMap<String, Integer> map = new HashMap<>();
+map.put("яблоко", 3);
+map.put("банан", 5);
+// Теперь в map: {"яблоко"=3, "банан"=5}
+
+ТЗначение get(ТКлюч key)
+Возвращает значение по ключу.
+Integer value = map.get("яблоко");
+// value: 3
+
+boolean containsKey(ТКлюч key)
+Проверяет наличие ключа в коллекции
+boolean hasApple = map.containsKey("яблоко");
+// hasApple: true
+
+boolean containsValue(ТЗначение value)
+Проверяет наличие значения в коллекции
+boolean hasThree = map.containsValue(3);
+// hasThree: true
+
+ТЗначение remove(ТКлюч key)
+Удаляет элемент из коллекции
+Integer removedValue = map.remove("банан");
+// removedValue: 5
+// Теперь в map: {"яблоко"=3}
+
+void clear()
+Очищает коллекцию: удаляет все элементы
+map.clear();
+// map теперь пустой
+
+int size()
+Возвращает количество пар элементов в коллекции
+int size = map.size();
+// size: 1 (если в map остался только один элемент)
+
+Set<ТКлюч> keySet()
+Возвращает множество ключей коллекции
+Set<String> keys = map.keySet();
+// keys: {"яблоко"}
+
+Collection<ТЗначение> values()
+Возвращает множество элементов коллекции
+Collection<Integer> values = map.values();
+// values: {3}
+
+Set<Map.Entry<TКлюч, TЗначение>> entrySet()
+Возвращает все значения коллекции в виде множества (Set) пар (Map.Entry).
+Set<Map.Entry<String, Integer>> entries = map.entrySet();
+// entries: {Map.Entry("яблоко", 3)}
