@@ -176,6 +176,7 @@ Integer removedValue = map.remove("банан");
 // Теперь в map: {"яблоко"=3}
 
 
+
 void clear()
 Очищает коллекцию: удаляет все элементы
 map.clear();
