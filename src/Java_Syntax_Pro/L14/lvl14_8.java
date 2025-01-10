@@ -1,6 +1,7 @@
 package Java_Syntax_Pro.L14;
 import java.util.ArrayList;
 import java.util.Collections;
+
 /*
 Изучаем методы класса Collections, часть 3
 */

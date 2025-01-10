@@ -3,7 +3,7 @@ package Java_Syntax_Pro.L14;
 public class lvl14_22 {
 }
 
-class Solution {
+class Solution22 {
 
     public static void main(String[] args) {
         System.out.println(getShapeNameByCountOfCorners(3));

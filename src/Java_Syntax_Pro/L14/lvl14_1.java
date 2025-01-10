@@ -9,7 +9,7 @@ import java.util.List;
 
 public class lvl14_1 {}
 
-class Solution {
+class Solution1 {
     public static void main(String[] args) {
         String[] array = {"Через", "три", "года", "я", "буду", "Senior", "Java", "Developer"};
         for (int i = 0; i < array.length; i++) {
