@@ -10,7 +10,7 @@ public class lvl15_2 {
 Помощник преподавателя
 */
 
- class Solution {
+ class Solution2 {
 
     public static final String PROMPT_STRING = "Введите номер студента, или exit для выхода: ";
     public static final String EXIT = "exit";
