@@ -8,7 +8,7 @@ public class lvl15_5 {}
 Купи слона
 */
 
-class Solution {
+class Solution5 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
