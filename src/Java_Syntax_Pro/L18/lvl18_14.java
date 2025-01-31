@@ -1,0 +1,20 @@
+package Java_Syntax_Pro.L18;
+
+public class lvl18_14 {}
+class Ship implements Swimmable {
+}
+class JamesBondCar implements Swimmable, Flyable {
+}
+class Zeppelin implements Flyable {
+}
+
+/*
+Существуют 2 интерфейса — Swimmable и Flyable, указывающие на то, что объект умеет плавать и/или летать соответственно.
+Расставь эти интерфейсы для классов Zeppelin (Дирижабль), Ship (Корабль) и JamesBondCar (Машина Джеймса Бонда) в соответствии с их возможностями.
+
+Помни: машина Джеймса Бонда умеет все.
+
+Требования:
+•	Класс Zeppelin должен имплементировать интерфейс Flyable.
+•	Класс Ship должен имплементировать интерфейс Swimmable.
+•	Класс JamesBondCar должен имплементировать интерфейсы Flyable и Swimmable.*/
