@@ -1,0 +1,30 @@
+package Java_Syntax_Pro.L25.lvl25_31;
+
+import java.io.File;
+import java.nio.file.Path;
+
+public class Statics {
+
+    public static String FILE_NAME = "C:\\Users\\Parub\\OneDrive\\Рабочий стол\\test1.txt";/* add the path to your source file here */;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+* /*
+    Для решения этой задачи:
+
+        Инициализируй переменную Statics.FILE_NAME полным путем к файлу с данными, который содержит несколько строк.
+        В статическом блоке считай из файла с именем Statics.FILE_NAME все строки и добавь их по отдельности в List lines.
+        Требования:
+        •	Константа FILE_NAME не должна быть пустой.
+        •	В статическом блоке все строки из файла с именем FILE_NAME должны быть добавлены по отдельности в список lines.
+        •	Поле FILE_NAME НЕ должно быть final.
+        •	Класс Solution должен содержать список lines.*/
